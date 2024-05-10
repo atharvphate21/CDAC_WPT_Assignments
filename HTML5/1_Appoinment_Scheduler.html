@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appoinment Schedular</title>
+</head>
+<body>
+    <h2>Appoinment Schedular</h2>
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        Name: <br>
+        <input type="text" name="Nm" id="name"/><br>
+        Telephone Number : <br>
+        <input type="number" name="tn" id="ph" minlength="8" maxlength="10"/><br>
+        E-mail Address: <br>
+        <input type="email" name="email" id="email" /><br>
+        Date of Birth: <br>
+        <input type="date" name="dob" id="dob"><br>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Appinment Request
+        </legend>
+        What is the reason for your visit <br>
+        <input type="text" name="reason" id="reason"/><br>
+        Current Pain level <br>
+        <input type="number" name="pain" id="pain" minlength="1" maxlength="5"/><br>
+        Preferred date <br>
+        <input type="date" name="date" id="date" /><br>
+       Preferred Time <br>
+        <input type="time" name="time" id="time"><br>
+    </fieldset>
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+</body>
+</html>

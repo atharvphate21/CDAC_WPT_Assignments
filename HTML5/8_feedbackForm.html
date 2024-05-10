@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h4{
+            display:inline;
+        }
+        header{
+            border:2px solid red;
+            border-radius: 6px;
+            background-color: blue;
+            color:white;
+            text-align: center;
+        }
+        #instructions{
+            margin:10px 10px 10px 50px;
+        }
+        form{
+            border:2px solid red;
+            background-color: cyan;
+            border-radius: 10px;
+            padding:20px
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h4>Atharv Phate,</h4>
+        <h4>Soham Bugad</h4>
+    </header>
+    <div id="instructions">
+        Note: all fields Marked by * are manditory<br>
+        Select all problems you faced while purchasing items<br>
+        To add more details use description box<br>
+    </div>
+    <hr color="red" size="2px" width="60%" align="left">
+   
+        <form>
+        <div style="width:60%;"></div>
+        <fieldset>
+            <legend>Problems list</legend>
+        <input type="checkbox" name="problems" id="technical" value="technical">
+        <label for="technical">Technical(Like web site was down)</label><br>
+        <input type="checkbox" name="problems" id="available" value="available">
+        <label for="available">Product not available</label><br>
+        <input type="checkbox" name="problems" id="info" value="info">
+        <label for="info">Missing information about product</label><br>
+    </fieldset>
+    </div>
+    <br><br>
+    <div>
+        Username : <input type="text" name="unm" id="unm" required><span style="color:red" >*</span><br>
+
+       Email : <input type="email" name="unm" id="unm" required><span style="color:red" >*</span><br>
+    
+       Location : <select>
+             <option value="Pune">Pune</option>
+             <option value="Mumbai">Mumbai</option>
+             <option value="Nashik">Nashik</option>
+             <option value="Banglore">Banglore</option>
+       </select><br>
+
+       Mobile number:<input type="text" name="mob" id="mob"><br>
+
+       Description :<br>
+       <textarea rows="5" cols="70"></textarea><br>
+       
+       Notification :<br>
+       <textarea rows="5" cols="70"></textarea><br>
+
+       <button type="submit" name="btn" id="btn" value="submit">Submit</button>
+    </form><br>
+     <a href="mailto:xyz.gmail.com?subject=feed for website&cc:abc@gmail.com">Contact us</a>
+    </div>
+
+
+
+</body>
+</html>
